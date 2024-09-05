@@ -1,0 +1,739 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    box-sizing: border-box;
+}
+.vephla1 {
+    position: sticky;
+    top: 0rem;
+    height: 6.25rem;
+    border: 0.125rem solid whitesmoke;
+    z-index: 2;
+    background-color: whitesmoke;
+}
+.vephla2 {
+    position: relative;
+    background-size: cover;
+    height: 50rem;
+    max-width: 100%;
+    background-image: url('https://vephlainstitute.com/images/img4.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% -25px;
+}
+.vephla3 {
+  position: absolute;
+  background-color: rgba(27, 27, 27, 0.9);
+    width: 100%;
+    height: 100%;
+}
+.vephla4 {
+  position: absolute;
+  left: 100px;
+  margin-top: 300px;
+  color: white;
+  line-height: 1.5;
+  height: 300px;
+} 
+.vephla4 h1 {
+  font-size: 50px;
+}
+.vephla4 a {
+  text-decoration: none;
+  border-radius: 20px;
+  width: 150px;
+  font-weight: bolder;
+  padding: 12px 38px;
+  text-align: center;
+  color: white;
+  background-color: slateblue;
+}
+.ugly{
+  position: absolute;
+  left: 580px;
+  top: 30px;
+}
+.ugly form{
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px 18px;
+  height: 420px;
+}
+
+.ugly form a{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+.ugly form #wait {
+  width: 470px;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-color: lightgrey;
+  outline: none;
+}
+.ugly form #pwd{
+  width: 470px;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-color: lightgrey;
+  outline: none;
+}
+.ugly form #pwd:active{
+  outline:1px solid slateblue;
+}
+div form .end {
+  border: none;
+  background-color: white;
+  font-weight: lighter;
+}
+div form #pwd2{
+  width: 470px;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-color: lightgrey;
+  outline: none;
+}
+ div form #pwd:active{
+  outline:1px solid #7971ea;
+}
+ div.ugly a.ewooh{
+  text-decoration: none;
+  color: white;
+  background-color: #7971ea;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 15px 45px;
+  font-weight: bold;
+}
+
+ div.ugly a.ewooh:hover{
+  background-color: #7971ea;
+}
+.logo {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+.contact {
+    position: absolute;
+    right: 120px;
+    top: 20px;
+    color: white;
+    text-align: center;
+    background-color: slateblue;
+    border-radius: 25px;
+    padding: 12px 15px;
+    width: 120px;
+}
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+.nav-bar {
+    position: absolute;
+    right: 300px;
+    display: block;
+    top: 30px;
+  }
+  .nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    .nav-bar li {
+      float: left;
+      font-size: 18px;
+      padding-right: 35px;
+    }
+    .nav-bar li a {
+      color: black;
+      text-decoration: none;
+    }
+    .nav-bar li a:hover {
+      font-size: 15px;
+      color: #7971ea;
+    }
+    .vephla6 {
+      position: relative;
+      background-color: #7971ea;
+      max-width: 100%;
+      height: 600px;
+    }
+    .vephla7 {
+      position: absolute;
+      color: white;
+      font-size: 28px;
+      margin-top: 70px;
+      left: 450px;
+      text-align: center;
+    }
+    .vephla7 p {
+      color: white;
+      margin-top: 40px;
+      text-align: center;
+      font-size: 16px;
+    }
+    .vephla8 {
+      position: absolute;
+      left: 100px;
+      margin-top: 450px;
+    }
+    #btn1 {
+      position: absolute;
+      color: white;
+      background-color: #7971ea;
+      left: 180px;
+      font-size: 15px;
+      margin-top: 270px;
+      z-index: 1;
+      width: 170px;
+      padding: 15px 15px;
+      border: 1px solid #7971ea;
+    }
+    .vephla9 {
+      position: absolute;
+      left: 100px;
+      margin-top: 750px;
+      padding-left: 30px;
+      font-size: 18px;
+      width: 350px;
+      height: 360px;
+      background-color: white;
+      line-height: 1.5;
+      border: 3px solid whitesmoke;
+    }
+    .vephla9 p {
+    color: gray;
+    }
+    .vephla9 a {
+      text-decoration: none;
+    }
+    span.design{
+    margin-left: 50px;
+    margin-right: 20px;
+    border: 0.5px solid lightgray;
+    padding-bottom: 10px;
+  }
+
+  div.brush{
+    margin-top: 15px;
+    border-top: 1px solid lightgrey;
+    padding-top: 12px;
+  }
+    .vephla10 {
+      position: absolute;
+      left: 500px;
+      margin-top: 450px;
+    }
+    #btn2 {
+      position: absolute;
+      color: white;
+      background-color: #7971ea;
+      left: 180px;
+      font-size: 15px;
+      margin-top: 320px;
+      width: 170px;
+      padding: 15px 15px;
+      border: 1px solid #7971ea;
+      z-index: 1;
+    }
+    .vephla11 {
+      position: absolute;
+      left: 500px;
+      margin-top: 800px;
+      width: 350px;
+      font-size: 18px;
+      padding-left: 30px;
+      height: 365px;
+      background-color: white;
+      line-height: 1.5;
+      border: 3px solid whitesmoke;
+    }
+    .vephla11 a {
+      text-decoration: none;
+    }
+    .vephla11 p {
+      color: gray;
+    }
+    .vephla12 {
+      position: absolute;
+      left: 900px;
+      top: 1350px;
+    }
+    #btn3 {
+      position: absolute;
+      color: white;
+      background-color: #7971ea;
+      left: 180px;
+      margin-top: 270px;
+      font-size: 15px;
+      width: 170px;
+      padding: 15px 15px;
+      z-index: 1;
+      border: 1px solid #7971ea;
+    }
+    .vephla13 {
+      position: absolute;
+      left: 900px;
+      margin-top: 145px;
+      padding-left: 30px;
+      font-size: 18px;
+      width: 350px;
+      height: 380px;
+      background-color: white;
+      line-height: 1.7;
+      border: 3px solid whitesmoke;
+    }
+    .vephla13 a {
+      text-decoration: none;
+    }
+    .vephla13 p {
+      color: gray;
+    }
+    #btn4 {
+      position: absolute;
+      color: white;
+      background-color: #7971ea;
+      right: 620px;
+      font-weight: bold;
+      margin-top: 600px;
+      width: 100px;
+      padding: 15px 15px;
+      text-align: center;
+      border-radius: 5px;
+      border: 1px solid #7971ea;
+    }
+    #btn5 {
+      position: absolute;
+      color: white;
+      background-color: #7971ea;
+      text-align: center;
+      right: 500px;
+      font-weight: bold;
+      margin-top: 600px;
+      width: 100px;
+      padding: 15px 15px;
+      border-radius: 5px;
+      border: 1px solid #7971ea;
+    }
+    .vephla14 {
+      position: relative;
+      background-color: white;
+      top: 800px;
+      height: 300px;
+    }
+    .vephla15 {
+      position: absolute;
+      text-align: center;
+      left: 350px;
+    }
+    .vephla15 h1 {
+      font-size: 50px;
+      font-weight: 1000;
+    }
+    .vephla16 {
+      position: relative;
+      height: 400px;
+      background-color: white;
+      top: 900px;
+    }
+    .vephla17 {
+      position: absolute;
+      left: 100px;
+    }
+    .vephla18 {
+      position: absolute;
+      right: 100px;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .vephla19 {
+      position: relative;
+      height: 400px;
+      background-color: white;
+      top: 1200px;
+    }
+    .vephla20 {
+      position: absolute;
+      left: 100px;
+      text-align: left;
+      line-height: 1.5;
+    }
+    .vephla21 {
+      position: absolute;
+      right: 100px; 
+    }
+    .vephla22 {
+      position: relative;
+      height: 400px;
+      background-color: white;
+      top: 1600px;
+    }
+    .vephla23 {
+      position: absolute;
+      left: 100px;
+    }
+    .vephla24 {
+      position: absolute;
+      right: 100px;
+      text-align: left;
+      line-height: 1.5;
+    }
+    .vephla24 a {
+      text-decoration: none;
+      color: #7971ea;
+    }
+    .vephla25 {
+      position: relative;
+      background-color: white;
+      top: 1700px;
+      height: 300px;
+    }
+    .vephla26 {
+      position: absolute;
+      text-align: center;
+      left: 380px;
+    }
+    .vephla26 h1 {
+      font-size: 50px;
+      font-weight: 1000;
+    }
+    .vephla27 {
+      position: relative;
+      height: 300px;
+    }
+    .vephla28 {
+      position: absolute;
+      left: 100px;
+      width: 350px;
+      top: 1650px;
+      text-align: center;
+      height: 600px;
+      background-color: white;
+      line-height: 1.7;
+      border: 3px solid whitesmoke;
+    }
+    .vephla29 {
+      position: absolute;
+      background-color: white;
+      top: 1600px;
+      left: 200px;
+      z-index: 1;
+    }
+    .vephla29 img {
+      border-radius: 50%;
+      background-color: white;
+    }
+    .vephla32 {
+      position: absolute;
+      left: 500px;
+      width: 350px;
+      top: 1650px;
+      text-align: center;
+      height: 600px;
+      background-color: white;
+      line-height: 1.7;
+      border: 3px solid whitesmoke;
+    }
+    .vephla31 {
+      position: absolute;
+      background-color: white;
+      left: 600px;
+      top: 1600px;
+      z-index: 1;
+    }
+    .vephla31 img {
+      border-radius: 50%;
+      background-color: white;
+    }
+    .vephla35 {
+      position: absolute;
+      left: 900px;
+      width: 350px;
+      top: 1650px;
+      text-align: center;
+      height: 600px;
+      background-color: white;
+      line-height: 1.7;
+      border: 3px solid whitesmoke;
+    }
+    .vephla34 {
+      position: absolute;
+      left: 1000px;
+      border-radius: 50%;
+      background-color: white;
+      top: 1600px;
+      z-index: 1;
+    }
+    .vephla34 img {
+      border-radius: 50%;
+      background-color: white;
+    }
+    .vephla36 {
+      position: relative;
+      top: 2200px;
+      background-image: url('https://vephlainstitute.com/images/hero_1.jpg');
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: 50% -25px;
+    }
+    .vephla37  img{
+      position: absolute;
+      border-radius: 50%;
+      left: 550px;
+      top: 60px;
+    }
+    .vephla38 {
+      position: absolute;
+      text-align: center;
+      left: 345px;
+      top: 230px;
+      line-height: 1.7;
+      color: white;
+    }
+    .vephla39 {
+      position: absolute;
+      background-color: rgba(34, 33, 33, 0.9);
+      width: 100%;
+      height: 100%; 
+      opacity: 1;
+    }
+    .vephla40 {
+      position: relative;
+      top: 2100px;
+      height: 250px;
+    }
+    .vephla41 {
+      position: absolute;
+      background-color: white;
+      margin-top: 300px;
+      width: 320px;
+      font-size: 15px;
+      height: 470px;
+      z-index: 1;
+      left: 270px;
+      line-height: 1.5;
+      border: 3px solid lightgrey;
+    }
+    .vephla41 p {
+      padding-left: 28px;
+    }
+    .vephla43 {
+      position: absolute;
+      text-align: center;
+      left: 500px;
+      margin-top: 160px;
+      font-size: 32px;
+      font-weight: 1000px;
+    }
+    .vephla42 {
+      position: absolute;
+      right: 100px;
+      margin-top: 300px;
+    }
+    .fa-graduation-cap {
+      border-radius: 50%;
+      color: white;
+      background-color: #7971ea;
+      padding: 10px 10px;
+    }
+    .fa-building-columns {
+      border-radius: 50%;
+      color: white;
+      background-color: #7971ea;
+      padding: 10px 10px;
+    }
+    .sect {
+      position: absolute;
+      right: -170px;
+      margin-top: 110px;
+    }
+    .sect2 {
+      position: absolute;
+      left: -130px;
+      margin-top: 460px;
+    }
+    .vephla46 {
+      position: relative;
+      background-color: whitesmoke;
+      height: 700px;
+      top: 2800px;
+      width: 100%;
+    }
+    .vephla47 {
+      position: absolute;
+      left: 500px;
+      margin-top: 30px;
+      text-align: left;
+    }
+    .vephla47 h1 {
+      font-size: 35px;
+      line-height: 1.7;
+      font-weight: 1000px;
+    }
+    .vephla48 {
+      position: absolute;
+      margin-top: 170px;
+      background-color: white;
+    }  
+    #first {
+      position: absolute;
+      width: 280px;
+      padding: 15px 15px;
+      left: 490px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    #last {
+      position: absolute;
+      width: 280px;
+      padding: 15px 15px;
+      left: 800px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    #sub {
+      position: absolute;
+      width: 600px;
+      padding: 15px 15px;
+      left: 490px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    #mail {
+      position: absolute;
+      width: 600px;
+      padding: 15px 15px;
+      left: 490px;
+      margin: 10px;
+      border-radius: 10px; 
+    }
+    #message {
+      position: absolute;
+      width: 600px;
+      padding: 70px 70px;
+      left: 490px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    #submit {
+      position: absolute;
+      width: 280px;
+      padding: 15px 15px;
+      left: 490px;
+      margin: 10px;
+      text-align: center;
+      border: none;
+      border-radius: 25px;
+      background-color: #7971ea;
+      font-weight: bolder;
+    }
+    .vephla50 {
+      position: relative;
+      background-color: white;
+      height: 600px;
+      top: 2900px;
+    }
+    .vephla51 {
+      position: absolute;
+      left: 100px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .vephla52 {
+      position: absolute;
+      left: 100px;
+      margin-top: 100px;
+      text-align: left;
+      line-height: 1.7;
+    }
+    .vephla53 {
+      position: absolute;
+      left: 500px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .vephla54 {
+      position: absolute;
+      left: 500px;
+      margin-top: 100px;
+      margin-bottom: 20px;
+      text-align: left;
+      line-height: 1.7;
+    }
+    .vephla54 a {
+      text-decoration: none;
+      color: #7971ea;
+    }
+    .vephla55 {
+      position: absolute;
+      left: 900px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .vephla56 {
+      position: absolute;
+      left: 900px;
+      margin-top: 100px;
+      margin-bottom: 20px;
+      text-align: left;
+      line-height: 1.7; 
+    }
+    .vephla57 {
+      position: absolute;
+    }
+    #email {
+      position: absolute;
+      margin-top: 180px;
+      left: 920px;
+      width: 170px;
+      padding: 12px 10px;
+      background-color: white;
+    }
+    #Login {
+      position: absolute;
+      margin-top: 180px;
+      border: 1px solid black;
+      left: 1100px;
+      width: 80px;
+      padding: 12px 15px;
+      color: white;
+      background-color: #7971ea;
+    }
+    .vephla58 {
+      position: absolute;
+      margin-top: 250px;
+      left: 900px;
+      line-height: 2;
+    }
+    .vephla58 a {
+      text-decoration: none;
+      color: #7971ea;
+    }
+    .vephla60 {
+      position: absolute;
+      text-align: center;
+      color: lightgray;
+      height: 200px;
+      border-top: 1px solid grey;
+      left: 400px;
+      top: 8950px;
+    }
+    .vephla60 a {
+      text-decoration: none;
+      color: #7971ea;
+    }

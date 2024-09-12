@@ -737,3 +737,297 @@ div form #pwd2{
       text-decoration: none;
       color: #7971ea;
     }
+
+/* Media Query for screens between 360px and 800px */
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .vephla1 {
+        height: 4rem;
+    }
+
+    .vephla2 {
+        height: 47rem;
+        background-position: 50% 0;
+    }
+
+    .vephla4 {
+        left: 20px;
+        margin-top: 100px;
+    }
+
+    .vephla4 h1 {
+        font-size: 30px;
+    }
+
+    .ugly {
+        left: -10px;
+        top: 290px;
+        margin-bottom: rem;
+        width: 100%;
+    }
+
+    .ugly form {
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .ugly form #wait,
+    .ugly form #pwd,
+    div form #pwd2 {
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .logo {
+        left: 20px;
+        top: 10px;
+    }
+
+    .contact {
+        right: 20px;
+        top: 10px;
+        padding: 8px 10px;
+        display: none;
+        width: 100px;
+    }
+
+    .nav-bar {
+        display: none; /* Hidden by default on tablet and mobile */
+    }
+
+    .nav-bar.active {
+        display: block;
+        position: fixed;
+        top: 4rem;
+        left: 0;
+        width: 100%;
+        background-color: whitesmoke;
+        z-index: 1000;
+    }
+
+    .nav-bar.active ul {
+        flex-direction: column;
+    }
+
+    .nav-bar.active li {
+        float: none;
+        text-align: center;
+        padding: 15px 0;
+    }
+}
+
+/* Additional styles for screens smaller than 360px if needed */
+@media screen and (max-width: 359px) {
+    .nav-bar {
+        display: none; /* Hidden by default on very small screens */
+    }
+
+    .nav-bar.active {
+        display: block;
+        position: fixed;
+        top: 3.5rem;
+        left: 0;
+        width: 100%;
+        background-color: whitesmoke;
+        z-index: 1000;
+    }
+
+    .nav-bar.active ul {
+        flex-direction: column;
+    }
+
+    .nav-bar.active li {
+        float: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+    
+   .vephla6 {
+        margin-bottom: 5rem;
+    }
+    .vephla7 {
+        left: 20px;
+        right: 20px;
+        font-size: 24px;
+    }
+
+    .vephla10, .vephla11, .vephla12, .vephla13 {
+        display: none;
+        
+    }
+
+    .vephla8 img {
+        margin-top: -3.1rem;
+        margin-left: -5.2rem;
+    }
+
+    .vephla9 {
+       margin-left: -5.3rem;
+    }
+
+    #btn1 {
+        left: 70%;
+        transform: translateX(-50%);
+        width: 60%;
+        max-width: 250px;
+    }
+    
+    
+    #btn2, #btn3 {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        display: none;
+        max-width: 250px;
+    }
+
+    #btn4{
+        right: auto;
+        left: 30%;
+        transform: translateX(-50%);
+        width: 40%; 
+        max-width: 100px;
+        margin-top: 30rem;
+    }
+    #btn5 {
+        right: auto;
+        left: 60%;
+        transform: translateX(-50%);
+        width: 40%;
+        max-width: 100px;
+        margin-top: 30rem;
+    }
+
+    .vephla17 img {
+        width: 100%;
+        height: auto;
+    }
+    .vephla21 img {
+        width: 100%;
+        height: auto;
+        margin-left: 3rem;
+        margin-top: 5rem;
+    }
+    .vephla15, .vephla26 {
+        left: 20px;
+        right: 20px;
+        text-align: center;
+    }
+.vephla27 {
+    margin-top: 60rem;
+}
+    .vephla15 h1, .vephla26 h1 {
+        font-size: 30px;
+    }
+
+    .vephla17, .vephla18, .vephla20{
+
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    } 
+    
+      .vephla24 {
+        position: static;
+        width: 90%;
+        display: none;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .vephla28, .vephla32, .vephla35 {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+    }
+    .vephla23 img {
+     width: 100%;
+     height: auto;
+     margin-top: -25rem;
+     display: none;
+    }
+
+    .vephla29, .vephla31, .vephla34 {
+        position: static;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .vephla36 {
+        min-height: 110vh;
+    }
+    .vephla37 img{
+       margin-left: -26.5rem;
+
+    }
+    .vephla38 {
+        left: 20px;
+        right: 20px;
+        top: 220px;
+    }
+    .vephla41 {
+        margin-top: 15rem;
+        display: none;
+    }
+    .vephla43 {
+        margin-top: 5rem;
+        margin-left: -15rem;
+        display: none;
+    }
+    .vephla41, .vephla42 {
+        position: static;
+        width: 90%;
+        display: none;
+        margin: 20px auto;
+    }
+    .sect img {
+       margin-left: -17rem;
+    }
+     .sect2 img {
+        margin-left: -28rem;
+    }
+    .vephla47 {
+        left: 20px;
+        right: 20px;
+        text-align: center;
+    }
+
+    .vephla48 {
+        margin-top: 150px;
+        width: 100%;
+        line-height: 0.5px;
+    }
+
+    #first, #last, #sub, #mail, #message, #submit {
+        position: static;
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .vephla51, .vephla52, .vephla53, .vephla54, .vephla55, .vephla56 {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+.vephla58 {
+    margin-left: -55rem;
+}
+    #email, #Login {
+        position: static;
+        width: 80%;
+        margin: 10px auto;
+        padding-left: 14rem;
+        display: block;
+    }
+
+    .vephla60 {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+}

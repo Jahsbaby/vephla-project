@@ -1030,3 +1030,164 @@ div form #pwd2{
         margin: 20px auto;
         text-align: center;
     }
+
+/* Existing styles remain unchanged */
+
+/* Hamburger menu icon */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1001;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+@media (max-width: 991px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-bar {
+        display: none;
+        position: fixed;
+        top: 6.25rem;
+        left: 0;
+        width: 100%;
+        background-color: whitesmoke;
+        z-index: 1000;
+    }
+
+    .nav-bar.active {
+        display: block;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+    }
+
+    .nav-bar li {
+        float: none;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .contact {
+        position: static;
+        margin: 20px auto;
+        display: block;
+        width: 120px;
+    }
+
+    /* Adjust other elements for tablet view */
+    .vephla4 {
+        left: 50px;
+        margin-top: 200px;
+    }
+
+    .ugly {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .vephla1 {
+        height: 5rem;
+    }
+
+    .vephla2 {
+        height: 40rem;
+    }
+
+    .vephla4 h1 {
+        font-size: 40px;
+    }
+
+    .ugly form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .ugly form #wait,
+    .ugly form #pwd,
+    div form #pwd2 {
+        width: 100%;
+    }
+
+    /* Further adjustments for smaller screens */
+    .vephla7, .vephla15, .vephla26 {
+        left: 20px;
+        right: 20px;
+        text-align: center;
+    }
+
+    .vephla8, .vephla9, .vephla10, .vephla11, .vephla12, .vephla13 {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .vephla1 {
+        height: 4rem;
+    }
+
+    .logo {
+        left: 10px;
+        top: 10px;
+    }
+
+    .vephla4 {
+        left: 20px;
+        margin-top: 100px;
+    }
+
+    .vephla4 h1 {
+        font-size: 30px;
+    }
+
+    .ugly {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 250px;
+        width: 90%;
+    }
+
+    .nav-bar {
+        top: 4rem;
+    }
+
+    /* Adjust other elements for mobile view */
+    .vephla17, .vephla18, .vephla20, .vephla21, .vephla23, .vephla24 {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .vephla28, .vephla32, .vephla35 {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    #btn1, #btn2, #btn3, #btn4, #btn5 {
+        position: static;
+        width: 80%;
+        max-width: 250px;
+        margin: 20px auto;
+        display: block;
+    }
+}

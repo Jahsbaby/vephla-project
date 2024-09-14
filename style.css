@@ -858,19 +858,19 @@ div form #pwd2{
     }
 
     .vephla8 img {
-        margin-top: -3.1rem;
-        margin-left: -5.2rem;
+        margin-top: 360px;
+        margin-left: -3px;
+        min-height: 40vh;
     }
 
     .vephla9 {
-       margin-left: -5.3rem;
+       margin-left: 5px;
+       position: absolute;
     }
 
     #btn1 {
-        left: 70%;
-        transform: translateX(-50%);
-        width: 60%;
-        max-width: 250px;
+        max-width: 50px;
+        display: none;
     }
     
     
@@ -883,21 +883,17 @@ div form #pwd2{
     }
 
     #btn4{
-        right: auto;
-        left: 30%;
-        transform: translateX(-50%);
-        width: 40%; 
-        max-width: 100px;
-        margin-top: 30rem;
+        margin-left: 5px; 
+        max-width: 50px;
+        display: hidden;
+        margin-top: 80px;
     }
     #btn5 {
-        right: auto;
-        left: 60%;
-        transform: translateX(-50%);
-        width: 40%;
-        max-width: 100px;
-        margin-top: 30rem;
+        max-width: 50px;
+        margin-left: 100px;
+        margin-top: ;
     }
+
 
     .vephla17 img {
         width: 100%;
